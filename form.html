@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir</title>
+  </head>
+  <body>
+    <h2>Formulir Data</h2>
+    <form action="proses.php" method="POST">
+      <p>
+        <label>Nama Lengkap:</label>
+        <input type="text" name="nama_lengkap" />
+      </p>
+      <p>
+        <label>Alamat:</label>
+        <input type="text" name="alamat_pendaftar" />
+      </p>
+      <p>
+        <label>Tanggal Lahir:</label>
+        <input type="date" name="tanggal_lahir" />
+      </p>
+      <p>
+        <label>Jenis Kelamin:</label><br />
+        <input type="radio" name="jenis_kelamin" value="Laki-laki" /> Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan" /> Perempuan
+      </p>
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
